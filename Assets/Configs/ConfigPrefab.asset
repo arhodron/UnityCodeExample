@@ -13,4 +13,12 @@ MonoBehaviour:
   m_Name: ConfigPrefab
   m_EditorClassIdentifier: 
   prefab: {fileID: 8122502401120373395, guid: 0ed860c4cd28eef4090549ba150f4bb6, type: 3}
-  lifeTime: 3
+  components:
+  - rid: 552408453529468928
+  references:
+    version: 2
+    RefIds:
+    - rid: 552408453529468928
+      type: {class: LifeTime, ns: Game.ECS, asm: Assembly-CSharp}
+      data:
+        value: 3

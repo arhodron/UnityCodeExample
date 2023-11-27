@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a43c43c28f474f488ee6eb689cf904b, type: 3}
   m_Name: ConfigService
   m_EditorClassIdentifier: 
-  keySpawn: 32
+  keySpawn: 323
   rangeSpawn: {x: 0, y: 5}
   configSpawn: {fileID: 11400000, guid: b1d7cb4e2095cee4cb3cc25520c0f21d, type: 2}
   isUseLifeTime: 1

@@ -20,9 +20,9 @@ namespace Game.ECS
             foreach (int entity in lifeTimeFilter.Value)
             {
                 ref LifeTime lifeTime = ref lifeTimeFilter.Pools.Inc1.Get(entity);
-                lifeTime.lifeTime -= Time.deltaTime;
+                lifeTime.value -= Time.deltaTime;
 
-                if (lifeTime.lifeTime <= 0)
+                if (lifeTime.value <= 0)
                 {
                     lifeTimeFilter.Pools.Inc1.Del(entity);
                     destroyPool.Value.Add(entity);
